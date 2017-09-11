@@ -10,7 +10,7 @@ This project includes the *TrueType version* of all the fonts above, which gener
 本项目提供以上所有字库的 **TrueType 版本**。通常 TrueType 格式的字库在 Microsoft Windows、Microsoft Office 以及前端领域的兼容性要优于 OpenType/CFF 格式。
 
 
-## Detailed Specification | 详细技术规格
+## Specification | 技术规格
 
 * Language-specific version: TrueType collection (TTC)
 * 多语言完整版（65,535 字符）：TrueType collection (TTC)
