@@ -9,6 +9,9 @@ This project includes the *TrueType version* of all the fonts above, which gener
 
 本项目提供以上所有字库的 **TrueType 版本**。通常 TrueType 格式的字库在 Microsoft Windows、Microsoft Office 以及前端领域的兼容性要优于 OpenType/CFF 格式。
 
+**All OpenType features are losslessly preserved.**
+**原字库的所有 OpenType 特性全部完整保留。**
+
 
 ## Specification | 技术规格
 
