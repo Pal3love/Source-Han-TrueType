@@ -9,10 +9,6 @@ This project includes the *TrueType version* of all the fonts above, which gener
 
 本项目提供以上所有字库的 **TrueType 版本**。通常 TrueType 格式的字库在 Microsoft Windows、Microsoft Office 以及前端领域的兼容性要优于 OpenType/CFF 格式。
 
-**All OpenType features are intact.**
-
-**原字库的所有 OpenType 特性完整保留。**
-
 
 ## Specification | 技术规格
 
@@ -24,6 +20,8 @@ This project includes the *TrueType version* of all the fonts above, which gener
 * 曲线精度：2048，**相当于 OpenType/CFF 原版的无损转换**
 * Rendering strategy: full-range subpixel anti-aliasing (on Windows 10)
 * 渲染策略：全字号亚像素抗锯齿（Windows 10）
+* OpenType features: All included
+* OpenType 特性：完整收录
 
 **Special Note**: Please download the latest *WinRAR* (for Windows) or the *Unarchiver* app (for Mac) to decompress the RAR files, as they are RAR5 archive format. For Ubuntu and possibly other flavors of Linux, we recommend that you download and install the [Unarchiver command-line tools](https://unarchiver.c3.cx/commandline), then simply execute the *unar* command with the given file.
 
