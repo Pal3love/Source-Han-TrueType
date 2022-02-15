@@ -23,9 +23,20 @@ function convertSubset() {
   done
 }
 
-# Convert full OTFs.
-function convertFull() {
+# Convert full sans OTFs.
+function convertFullSans() {
   for folder in Japanese Korean SimplifiedChinese TraditionalChinese TraditionalChineseHK JapaneseHW KoreanHW SimplifiedChineseHW TraditionalChineseHW TraditionalChineseHKHW
+  do
+    cd $folder
+    otf2ttf
+    mv -f *.ttf ../../../full/
+    cd ..
+  done
+}
+
+# Convert full serif OTFs.
+function convertFullSerif() {
+  for folder in Japanese Korean SimplifiedChinese TraditionalChinese TraditionalChineseHK
   do
     cd $folder
     otf2ttf
@@ -68,12 +79,12 @@ cd ../..
 
 # Convert Source Han Sans full OTFs.
 cd source-han-sans-2.004R/OTF
-convertFull
+convertFullSans
 cd ../..
 
 # Convert Source Han Serif full OTFs.
 cd source-han-serif-2.001R/OTF
-convertFull
+convertFullSerif
 cd ../..
 
 # Convert Source Han Sans Mono full OTFs.
