@@ -37,6 +37,6 @@ For information about the design and background of the Source Han typefaces, ple
 
 关于字库设计以及其他有关思源字库的信息，请垂询各个 GitHub 仓库。
 
-Source Han Sans: https://github.com/adobe-fonts/source-han-sans
-Source Han Serif: https://github.com/adobe-fonts/source-han-serif
-Source Han Mono: https://github.com/adobe-fonts/source-han-mono
+* Source Han Sans: https://github.com/adobe-fonts/source-han-sans
+* Source Han Serif: https://github.com/adobe-fonts/source-han-serif
+* Source Han Mono: https://github.com/adobe-fonts/source-han-mono
