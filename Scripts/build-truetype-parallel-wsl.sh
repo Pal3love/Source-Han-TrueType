@@ -1,6 +1,6 @@
 #!/bin/bash
-# This bash script generates TrueType version of Source Han Sans.
-# Note that this script depends on Adobe's AFDKO and otRebuilder, both of which could be found on GitHub. Apple's Font Tools for xCode could be found at developer.apple.com/fonts.
+# This bash script generates TrueType version of Source Han Fonts.
+# Note that this script depends on FontTools, Adobe's AFDKO and otRebuilder, all of which could be found on GitHub. Apple's Font Tools for xCode could be found at developer.apple.com/fonts.
 
 # In one folder, convert OTF files into TTF in UPM 2048.
 function otf2ttf() {
@@ -24,9 +24,20 @@ function convertSubset() {
   done
 }
 
-# Convert full OTFs.
-function convertFull() {
+# Convert full sans OTFs.
+function convertFullSans() {
   for folder in Japanese Korean SimplifiedChinese TraditionalChinese TraditionalChineseHK JapaneseHW KoreanHW SimplifiedChineseHW TraditionalChineseHW TraditionalChineseHKHW
+  do
+    cd $folder
+    otf2ttf
+    mv -f *.ttf ../../../full/
+    cd ..
+  done
+}
+
+# Convert full serif OTFs.
+function convertFullSerif() {
+  for folder in Japanese Korean SimplifiedChinese TraditionalChinese TraditionalChineseHK
   do
     cd $folder
     otf2ttf
@@ -69,12 +80,12 @@ cd ../..
 
 # Convert Source Han Sans full OTFs.
 cd source-han-sans-2.004R/OTF
-convertFull
+convertFullSans
 cd ../..
 
 # Convert Source Han Serif full OTFs.
 cd source-han-serif-2.001R/OTF
-convertFull
+convertFullSerif
 cd ../..
 
 # Convert Source Han Sans Mono full OTFs.
