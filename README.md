@@ -1,4 +1,4 @@
-[English](README-EN.md)
+[English](README_EN.md)
 
 # 思源 TrueType
 **思源黑体、思源宋体和思源等宽的 TrueType 版本**
