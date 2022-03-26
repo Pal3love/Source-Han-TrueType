@@ -1,11 +1,17 @@
 [简体中文](README.md)
 
 # Source Han TrueType
+
 **TrueType Version of Source Han Sans, Source Han Serif and Source Han Mono**
 
-Adobe-branded *Source Han Sans*, *Source Han Serif*, and *Source Han Mono* are open source Pan-CJK typefaces whose OpenType/CFF fonts and CID-based sources are covered under the terms of the [SIL Open Font License, Version 1.1](http://scripts.sil.org/OFL) (also see the [FAQ](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)).
+Adobe-branded *Source Han Sans*, *Source Han Serif*, and *Source Han Mono* are open source Pan-CJK typefaces whose OpenType/CFF fonts and CID-based sources are covered under the terms of the [SIL Open Font License](http://scripts.sil.org/OFL) (also see the [FAQ](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)).
 
 This project provides the lossless *TrueType version* of all Source Han fonts, without any change of curve accuracy, metrics and functionality. In general, TrueType format presents better compatibility than OpenType/CFF (OTF) on Microsoft Windows, Microsoft Office and front-end web applications. All TrueType fonts released by this project are interchangeable with the OTF version, therefore documents using OTF will not need to revise.
+
+
+## 3rd-Party Project
+
+Although the TTF release of this repo represents the same font design and functionality as the OTF format, this repo is a 3rd-party project and *not* published by Adobe. The fonts published here also comply with the [SIL Open Font License](http://scripts.sil.org/OFL), allowing free commercial use.
 
 
 ## Download and Installation

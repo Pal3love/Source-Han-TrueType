@@ -1,11 +1,17 @@
-[English](README-EN.md)
+[English](README_EN.md)
 
 # 思源 TrueType
+
 **思源黑体、思源宋体和思源等宽的 TrueType 版本**
 
-**思源黑体**、**思源宋体**以及**思源等宽**是由 Adobe 主导开发的开源及跨中日韩地区的多语言字库。这些字库的 OpenType/CFF 文件以及 CID 源文件均由 [SIL 开源字库协议，版本 1.1](http://scripts.sil.org/OFL) 授权（另请参阅[常见问题](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)）。
+**思源黑体**、**思源宋体**以及**思源等宽**是由 Adobe 主导开发的开源及跨中日韩地区的多语言字体。这些字体的 OpenType/CFF 文件以及 CID 源文件均由 [SIL 开源字体协议(http://scripts.sil.org/OFL) 授权（另请参阅[常见问题](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)）。
 
 本项目在完整保留曲线精度、尺寸和功能的前提下，提供思源所有字体的 **TrueType 版本**。TrueType 格式在 Microsoft Windows、Microsoft Office 以及前端领域的兼容性要优于 OpenType/CFF (OTF) 格式。本项目提供的所有 TrueType 字体均可与思源 OTF 原版无缝替换，无需返工修订设计文稿。
+
+
+## 非官方版本
+
+虽然本项目在字体设计和功能性上与 OTF 原版保持一致，但需要指出，此项目并非由 Adobe 官方发布。本项目遵循 [SIL 开源字体协议](http://scripts.sil.org/OFL)，可免费用于商业用途。
 
 
 ## 下载与安装
@@ -26,7 +32,7 @@
 * **封装格式**：完整版为 TrueType Collection (TTC)，子集版为 TrueType (TTF)
 * **曲线格式**：二次贝塞尔曲线
 * **曲线精度（UPM）**：2048，即原版 OpenType/CFF 三次曲线的无损转换
-* **屏显渲染策略**：全字号亚像素抗锯齿（Windows 10）
+* **屏显渲染策略**：全字号亚像素抗锯齿（Windows 10 及更新版本）
 
 
 ## 可变版本

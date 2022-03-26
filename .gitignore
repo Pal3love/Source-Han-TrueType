@@ -1,6 +1,6 @@
 .DS_Store
 bfg.jar
-release
+release/*.zip
 temp
 source/source-han-mono/*
 !source/source-han-mono/README.txt
