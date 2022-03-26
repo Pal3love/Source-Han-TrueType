@@ -31,7 +31,7 @@
 
 ## 可变版本
 
-Adobe 官方已提供思源黑体和思源宋体可变版 TrueType 字体，请前往以下发布页面下载。
+Adobe 官方已提供思源黑体和思源宋体的可变版 TrueType 字体文件，请前往以下发布页面下载。
 
 * [思源黑体可变版](https://github.com/adobe-fonts/source-han-sans/releases)
 * [思源宋体可变版](https://github.com/adobe-fonts/source-han-serif/releases)
@@ -39,7 +39,7 @@ Adobe 官方已提供思源黑体和思源宋体可变版 TrueType 字体，请�
 
 ## Adobe 软件的行高过大问题
 
-Adobe 软件（如 Photoshop、Illustrator）的行高过大问题是由 OTF 原版字体中的“3 em vertical dash”字符所导致的。思源字体的全局字框为了容纳该字符而撑得很高。本项目与思源 OTF 原版的所有功能保持完全一致，因而**不会**修改该设计。**如需修正行高的版本，请前往[梦源字体系列](https://github.com/Pal3love/dream-han-cjk)，**该系列除修正行高之外，更提供了多达 29 个字重的丰富选择。**
+Adobe 软件（如 Photoshop、Illustrator 等）的行高过大问题是由 OTF 原版字体中的“3 em vertical dash”字符所导致的。思源字体的全局字框为了容纳该字符而撑得很高。本项目与思源 OTF 原版的所有功能保持完全一致，因而**不会**修改该设计。**如需修正行高的版本，请前往[梦源字体系列](https://github.com/Pal3love/dream-han-cjk)**，该系列除修正行高之外，更提供了多达 29 个字重的丰富选择。
 
 
 ## 编译

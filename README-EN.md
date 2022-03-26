@@ -39,7 +39,7 @@ The Adobe official repo has provided TrueType version of variable Source Han San
 
 ## Overlarge Line Height Concern on Adobe Applications
 
-The overlarge line height issue on Adobe applications such as Photoshop and Illustrator is caused by the shape of "3 em vertical dash" glyph from the OTF version. The global font box is overly set to accommodate this glyph. Given the use case of this repo, i.e. full interchangeability from the OTF version, this project **will not** change this design. **To fix it, please visit [Dream Han CJK](https://github.com/Pal3love/dream-han-cjk),** a Source-Han-inspired open-sourced font project to provide up to 29 weights.
+The overlarge line height issue on Adobe applications such as Photoshop and Illustrator is caused by the shape of "3 em vertical dash" glyph from the OTF version. The global font box is overly set to accommodate this glyph. Given the use case of this repo, i.e. full interchangeability from the OTF version, this project **will not** change this design. **To fix it, please visit [Dream Han CJK](https://github.com/Pal3love/dream-han-cjk)**, a Source-Han-inspired open-sourced font project to provide up to 29 weights.
 
 
 ## Compilation
