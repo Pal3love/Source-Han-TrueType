@@ -48,7 +48,7 @@ Adobe 软件（如 Photoshop、Illustrator 等）的行高过大问题是由 OTF
 
 ### 硬盘空间
 
-脚本将生成约 5 GB 临时文件。临时文件将在运行结束时自动删除。
+脚本将生成约 5 GB 临时文件，加上最终的 ZIP 压缩包共计约 6 GB 总硬盘空间。临时文件将在运行结束时自动删除。
 
 ### 平台依赖
 
@@ -70,7 +70,7 @@ Adobe 软件（如 Photoshop、Illustrator 等）的行高过大问题是由 OTF
 
 ## 更多信息
 
-如需获取 Adobe 思源系列字体的设计、使用以及其他信息，请访问以下官方 GitHub 仓库。
+如需获取 Adobe 思源系列字体的设计、使用以及其他信息，请访问以下官方 GitHub 仓库：
 
 * [思源黑体](https://github.com/adobe-fonts/source-han-sans)
 * [思源宋体](https://github.com/adobe-fonts/source-han-serif)
