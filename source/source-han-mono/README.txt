@@ -2,12 +2,10 @@
 
 Please download the original OTF fonts from Source Han Mono official repo and put them right there. Do not leave OTF files in any sub directory.
 
----
-
-### Source Han Mono
+Source Han Mono
 https://github.com/adobe-fonts/source-han-mono/archive/refs/heads/master.zip
 
-### File List
+File List
 SourceHanMono-Bold.otf
 SourceHanMono-BoldIt.otf
 SourceHanMono-ExtraLight.otf

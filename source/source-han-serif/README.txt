@@ -2,12 +2,10 @@
 
 Please download the original OTF fonts from Source Han Serif official repo and put them right there. Do not leave OTF files in any sub directory.
 
----
-
-### Source Han Serif
+Source Han Serif
 https://github.com/adobe-fonts/source-han-serif/releases
 
-### File List
+File List
 SourceHanSerif-Bold.otf
 SourceHanSerif-ExtraLight.otf
 SourceHanSerif-Heavy.otf

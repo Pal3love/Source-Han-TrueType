@@ -2,12 +2,10 @@
 
 Please download the original OTF fonts from Source Han Sans official repo and put them right there. Do not leave OTF files in any sub directory.
 
----
-
-### Source Han Sans
+Source Han Sans
 https://github.com/adobe-fonts/source-han-sans/releases
 
-### File List
+File List
 SourceHanSans-Bold.otf
 SourceHanSans-ExtraLight.otf
 SourceHanSans-Heavy.otf
