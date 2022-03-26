@@ -1,3 +1,9 @@
 .DS_Store
 release
 temp
+source/source-han-mono/*
+!source/source-han-mono/README.md
+source/source-han-sans/*
+!source/source-han-sans/README.md
+source/source-han-serif/*
+!source/source-han-serif/README.md
