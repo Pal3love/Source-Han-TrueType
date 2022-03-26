@@ -64,9 +64,9 @@ Windows Subsystem for Linux (WSL) and macOS platform are both supported. Please 
 
 To save space, this repo does not bundle with the OTF source files. Please visit the Source Han official repos, download and put all OTF files in the 3 sub folders, respectively:
 
-* Please put [all Source Han Mono OTF files](https://github.com/adobe-fonts/source-han-mono/archive/refs/heads/master.zip)in folder *source-han-mono*;
-* Please put [all Source Han Sans OTF files](https://github.com/adobe-fonts/source-han-sans/releases)in folder *source-han-sans*;
-* Please put [all Source Han Serif OTF files](https://github.com/adobe-fonts/source-han-serif/releases)in folder *source-han-serif*.
+* Please put [all Source Han Mono OTF files](https://github.com/adobe-fonts/source-han-mono/archive/refs/heads/master.zip) in folder *source-han-mono*;
+* Please put [all Source Han Sans OTF files](https://github.com/adobe-fonts/source-han-sans/releases) in folder *source-han-sans*;
+* Please put [all Source Han Serif OTF files](https://github.com/adobe-fonts/source-han-serif/releases) in folder *source-han-serif*.
 
 ### Build Fonts
 
