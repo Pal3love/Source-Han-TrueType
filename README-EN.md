@@ -1,7 +1,6 @@
 [简体中文](README.md)
 
 # Source Han TrueType
-
 **TrueType Version of Source Han Sans, Source Han Serif and Source Han Mono**
 
 Adobe-branded *Source Han Sans*, *Source Han Serif*, and *Source Han Mono* are open source Pan-CJK typefaces whose OpenType/CFF fonts and CID-based sources are covered under the terms of the [SIL Open Font License, Version 1.1](http://scripts.sil.org/OFL) (also see the [FAQ](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)).

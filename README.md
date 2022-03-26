@@ -1,7 +1,6 @@
 [English](README-EN.md)
 
 # 思源 TrueType
-
 **思源黑体、思源宋体和思源等宽的 TrueType 版本**
 
 **思源黑体**、**思源宋体**以及**思源等宽**是由 Adobe 主导开发的开源及跨中日韩地区的多语言字库。这些字库的 OpenType/CFF 文件以及 CID 源文件均由 [SIL 开源字库协议，版本 1.1](http://scripts.sil.org/OFL) 授权（另请参阅[常见问题](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)）。
