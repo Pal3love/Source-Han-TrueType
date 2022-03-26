@@ -60,12 +60,20 @@ Windows Subsystem for Linux (WSL) and macOS platform are both supported. Please 
 * `sudo apt install zip` (WSL only, already bundled with macOS)
 * `sudo apt install rename` (WSL only, already bundled with macOS)
 
+### OTF Source File
+
+To save space, this repo does not bundle with the OTF source files. Please visit the Source Han official repos, download and put all OTF files in the 3 sub folders, respectively:
+
+* Please put [all Source Han Mono OTF files](https://github.com/adobe-fonts/source-han-mono/archive/refs/heads/master.zip)in folder *source-han-mono*;
+* Please put [all Source Han Sans OTF files](https://github.com/adobe-fonts/source-han-sans/releases)in folder *source-han-sans*;
+* Please put [all Source Han Serif OTF files](https://github.com/adobe-fonts/source-han-serif/releases)in folder *source-han-serif*.
+
 ### Build Fonts
 
-* WSL: `cd` into the script folder and execute `./build_ttfs.sh wsl <maximum parallel jobs>`
-* macOS: `cd` into the script folder and execute `./build_ttfs.sh mac <maximum parallel jobs>`
+* WSL: `cd` into the *script* folder and execute `./build_ttfs.sh wsl <maximum parallel jobs>`
+* macOS: `cd` into the *script* folder and execute `./build_ttfs.sh mac <maximum parallel jobs>`
 * The **maximum parallel jobs** decides the maximum number of fonts processed in parallel. Each font will take ~ 1.5 CPU threads and up to 600 MB memory. Please choose the best number for your machine. For example, AMD Ryzen 9 3950X is good at 28, taking up to 97% CPU usage, given enough memory.
-* After the script, the final ZIP files will be located at new-created release folder. All temporary files will be auto deleted once the script is done.
+* After the script, the final ZIP files will be located at new-created *release* folder. All temporary files will be auto deleted once the script is done.
 
 
 ## More Information

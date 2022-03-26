@@ -60,6 +60,14 @@ Adobe 软件（如 Photoshop、Illustrator 等）的行高过大问题是由 OTF
 * `sudo apt install zip`（仅供 WSL，macOS 已自带）
 * `sudo apt install rename`（仅供 WSL，macOS 已自带）
 
+### OTF 源文件
+
+为节约体积，本仓库不自带原版思源 OTF 字体文件。请前往官方仓库下载 OTF 字体并分别放在 source 目录内的三个子目录内：
+
+* 请将[思源等宽的所有 OTF 文件](https://github.com/adobe-fonts/source-han-mono/archive/refs/heads/master.zip)放在 source-han-mono 目录内；
+* 请将[思源黑体的所有 OTF 文件](https://github.com/adobe-fonts/source-han-sans/releases)放在 source-han-sans 目录内；
+* 请将[思源宋体的所有 OTF 文件](https://github.com/adobe-fonts/source-han-serif/releases)放在 source-han-serif 目录内。
+
 ### 执行脚本
 
 * WSL: `cd` 进 script 目录后，执行 `./build_ttfs.sh wsl <最大并行数>`
