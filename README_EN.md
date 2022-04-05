@@ -58,13 +58,12 @@ To reproduce the font conversion process locally, please refer to the following 
 
 ### Dependency
 
-Windows Subsystem for Linux (WSL) and macOS platform are both supported. Please make sure the following dependencies have properly set up:
+Windows Subsystem for Linux (WSL), Linux x86-64 with Wine and macOS platform are all supported. Please make sure the following dependencies have properly set up:
 
 * Python 3.8 and above
 * PyPI (`pip`)
 * `pip install afdko`: [Adobe Font Development Kit for OpenType (AFDKO)](https://github.com/adobe-type-tools/afdko)
-* `sudo apt install zip` (WSL only, already bundled with macOS)
-* `sudo apt install rename` (WSL only, already bundled with macOS)
+* Install `zip` via the package manager, such as `sudo apt install zip` (for WSL and Linux only; already bundled with macOS)
 
 ### OTF Source File
 
@@ -77,6 +76,7 @@ To save space, this repo does not bundle with the OTF source files. Please visit
 ### Build Fonts
 
 * WSL: `cd` into the *script* folder and execute `./build_ttfs.sh wsl <maximum parallel jobs>`
+  Linux: `cd` into the *script* folder and execute `./build_ttfs.sh linux <maximum parallel jobs>`
 * macOS: `cd` into the *script* folder and execute `./build_ttfs.sh mac <maximum parallel jobs>`
 * The **maximum parallel jobs** decides the maximum number of fonts processed in parallel. Each font will take ~ 1.5 CPU threads and up to 600 MB memory. Please choose the best number for your machine. For example, AMD Ryzen 9 3950X is good at 28, taking up to 97% CPU usage, given enough memory.
 * After the script, the final ZIP files will be located at new-created *release* folder. All temporary files will be auto deleted once the script is done.

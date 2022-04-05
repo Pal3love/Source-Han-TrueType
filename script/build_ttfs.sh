@@ -8,6 +8,7 @@ script_file_name="build_ttfs.sh"
 otrebuild_win="otrebuild_win.exe"
 otrebuild_mac="otrebuild_mac"
 otrebuild_binary=${otrebuild_win}
+otrebuild_wrapper=
 
 binary_folder="binary"
 release_folder="release"
@@ -47,11 +48,30 @@ function is_number() {
 }
 
 function set_platform() {
-    if [ $1 == "mac" ]; then
+    case $1 in
+      wsl)
+        ;;
+      linux)
+        if grep -iq "magic 4d5a" /proc/sys/fs/binfmt_misc/*; then
+            # 4d5a == "MZ", i.e. the PE magic.
+            # Wine is registered as binfmt handler for PE files.
+            # Do nothing; just act like WSL.
+            :
+        elif wine --help >/dev/null 2>&1; then
+            # `wine` command available.
+            # Call otrebuilder via `wine otrebuilder.exe`.
+            otrebuild_wrapper="wine"
+        else
+            echo "Wine required"
+            print_usage_and_exit
+        fi
+        ;;
+      mac)
         otrebuild_binary=${otrebuild_mac}
-    elif [ $1 != "wsl" ]; then
+        ;;
+      *)
         print_usage_and_exit
-    fi
+    esac
     echo "Set platform to $1"
 }
 
@@ -77,10 +97,19 @@ function convert() {
         font_file_name="${font_path##*/}"
         font_file="${font_file_name%.*}"
         limit_parallels; {
-            ../../${binary_folder}/${otrebuild_binary} --otf2ttf --UPM 2048 --removeGlyphNames --O1 -o ../../${temp_folder}/${font_file}.ttf ${font_path}
+            ${otrebuild_wrapper} ../../${binary_folder}/${otrebuild_binary} --otf2ttf --UPM 2048 --removeGlyphNames --O1 -o ../../${temp_folder}/${font_file}.ttf ${font_path}
         } &
     done
     wait
+}
+
+function rename() {
+    pattern=$1
+    while [[ $# > 1 ]]; do
+        shift
+        new_file_name=$(echo "$1" | sed "${pattern}")
+        mv $1 ${new_file_name}
+    done
 }
 
 function add_japanese_language_code() {
