@@ -24,6 +24,11 @@
 | 韩国语子集   | 只包含韩国标准字形，又称“旧字形” | [TTF](https://github.com/Pal3love/Source-Han-TrueType/releases/download/2.004-2.001-1.002-R/SourceHanSansKR.zip)                                                                                                                                   | [TTF](https://github.com/Pal3love/Source-Han-TrueType/releases/download/2.004-2.001-1.002-R/SourceHanSerifKR.zip) | -                                                                                                              |
 
 
+## Microsoft Office 字体嵌入功能
+
+Word、PowerPoint 等软件在嵌入字体时，因软件 bug 无法子集嵌入 TTC 完整版，导致生成超大体积文档。如遇到这种情况，可换用 TTF 子集版，即可正常嵌入字体子集。
+
+
 ## 中国大陆分流
 
 如果此处下载缓慢或卡顿，请访问[百度网盘](https://pan.baidu.com/s/1b9hhWCKm1QQN97HkcOfxOQ?pwd=o6aj)（提取码：o6aj）。
