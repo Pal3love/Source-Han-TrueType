@@ -76,7 +76,7 @@ Adobe 软件（如 Photoshop、Illustrator 等）的行高过大问题是由 OTF
 ### 执行脚本
 
 * WSL: `cd` 进 script 目录后，执行 `./build_ttfs.sh wsl <最大并行数>`
-* Linux: `cd` 进 script 目录后，执行 `./build_fonts.sh linux <最大并行数>`
+* Linux: `cd` 进 script 目录后，执行 `./build_ttfs.sh linux <最大并行数>`
 * macOS: `cd` 进 script 目录后，执行 `./build_ttfs.sh mac <最大并行数>`
 * 其中，**最大并行数**决定最多并行处理的字体数量。每个字体占用约 1.5 CPU 线程和最多 600 MB 内存，请根据自己的电脑配置酌情选择。譬如，AMD Ryzen 9 3950X 可将此参数设为 28，在内存足够的情况下，可达 97% CPU 使用率。
 * 脚本运行完成后，最终字体的 ZIP 压缩包将位于根目录下新创建的 release 目录内。运行过程中产生的临时文件将会在结束时自动删除。
